@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64176e7c-d1f8-475c-b21e-5c6616c9d080">
+  <producedTypes>
+    <objectType typeId="721a0f39-5bd3-4018-b046-5246abf9a03b" valueTypeId="629f98e9-69a7-418b-a299-7b090728ab10"/>
+    <refType typeId="2c127f29-b755-4cbe-8850-cc39ec652ee6" valueTypeId="07080069-46b4-4cc0-a5cf-bbd12711cb34"/>
+    <selectionType typeId="9bd6544e-7f6e-43ad-ae4c-0804e5e73040" valueTypeId="dfe0457d-166e-4a21-8c90-440f61ede14d"/>
+    <listType typeId="049ce1d1-de93-4186-82c5-557edeabe982" valueTypeId="187ff5fc-6c00-483a-a603-2e30376e6b47"/>
+    <managerType typeId="a2d94b0d-b307-44f7-bf43-b37a06fc5c82" valueTypeId="3ff6eef5-07dd-403a-a600-b1542216c228"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ уведомления боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="998d2dcb-d08f-40e1-8f5b-b55d02c85865">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
